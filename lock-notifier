@@ -1,0 +1,6 @@
+#!/bin/sh
+
+xautolock -locker slock -notify 300 \
+-notifier \
+'zenity --warning --timeout=360 --text="lock!"' \
+-time 15
